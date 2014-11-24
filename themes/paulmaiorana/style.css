@@ -21,6 +21,9 @@ body {
 	background: #efefef;
 	padding: 0;
 	}
+div#secondary {
+	display: none;
+	}
 div#page {
 	margin: 0 0 0 260px;
 	position: relative;
