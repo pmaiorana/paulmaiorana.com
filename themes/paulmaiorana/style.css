@@ -1,0 +1,313 @@
+/*
+Theme Name:     PaulMaiorana.com / Notes
+Theme URI:      http: //paulmaiorana.com/notes/
+Description:    Child theme for the Twenty Eleven theme 
+Author:         Paul Maiorana
+Author URI:     http: //paulmaiorana.com/
+Template:       twentyeleven
+Version:        0.1.0
+*/
+
+
+/* Import Twenty Eleven CSS */
+
+@import url("../twentyeleven/style.css");
+
+
+/* Override Twenty Eleven CSS */
+
+body {
+/*	background: #fff url("images/background.png") repeat-y fixed; */
+	background: #efefef;
+	padding: 0;
+	}
+div#page {
+	margin: 0 0 0 260px;
+	position: relative;
+	}
+.singular.page .hentry {
+	padding: 0;
+	}
+header#branding {
+	border-top: 0;
+	height: 89px;
+	}
+header#branding hgroup {
+	margin: 0;
+	background: #fffd3d;
+	position: fixed;
+	width: 638px;
+	padding-left: 52px;
+	height: 99px;
+	border-bottom: 1px solid #e0e0e0;
+	}
+header#branding h1#site-title {
+	padding: 28px 0px;
+	}
+header#branding h1#site-title a {
+	color: #444444;
+	font-size: 60px;
+	font-family: ostrich-sans-1, ostrich-sans-, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	margin: 0;
+	line-height: 1em;
+	}
+header#branding h1#site-title a:hover {
+	text-shadow: -0.1em -0.1em #fff;
+	}
+header#branding {
+	border-bottom: 1px solid #e0e0e0;
+	}
+header#branding img {
+	display: none;
+	}
+nav#main {
+	-webkit-box-shadow: none;
+	float: none;
+	margin: 0;
+	padding: 10px 12px;
+	background: #444;
+	border-bottom: 1px solid #000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 236px;
+	height: 79px;
+	z-index: 0;
+	}
+nav#main a {
+	border-bottom: 1px solid #ECECEC;
+	text-decoration: none;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	display: block;
+	font-weight: 600;
+	}
+nav#main a:hover {
+	color: #FFFE4E;
+	text-decoration: none;
+	}
+nav#main h3 {
+	display: block;
+	color: #fff;
+	line-height: 1em;
+	}
+nav#main h3 a {
+	line-height: 1em;
+	padding-bottom: 6px;
+	margin-bottom: 2px;
+	border-bottom: 2px solid #fff;
+	font-weight: bold;
+	}
+nav#main div.menu {
+	margin: 0;
+	}
+nav#main ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 112px;
+	}
+nav#main ul.left {
+	margin-right: 6px;
+	}
+nav#main ul.right {
+	margin-left: 6px;
+	}
+nav#main ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: auto;
+	float: none;
+	}
+nav#main ul li a {
+	line-height: 2em;
+	font-size: 11px;
+	}
+div#primary {
+	width: 690px;
+	margin-right: 0;
+	}
+.one-column div#content {
+	margin: 0px;
+	}
+.one-column div#content article {
+	padding-left: 7.6%;
+	padding-right: 7.6%;
+	padding-bottom: 1.625em;
+	}
+.page-title {
+	margin: 0 0 0 50px;
+	}
+article h1.entry-title {
+	padding-bottom: 0;
+	z-index: 20;
+	}
+article.format-link header {
+	display: none;
+	}
+article h1.entry-title a, body.singular .hentry h1.entry-title {
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	background: #fff  url("images/flash.png") no-repeat 8px 9px;
+	margin-left: -80px;
+	padding: 4px 10px 4px 80px;
+	line-height: 1em;
+	font-size: 23px;
+	color: #494949;
+	}
+body.singular .hentry h1.entry-title {
+	background: #fff  url("images/flash.png") no-repeat 8px 9px;
+	line-height: 31px;
+	margin-top: 18px !important;
+	}
+article h1.entry-title a:hover {
+	color: #fff;
+	background-color: #444444;
+	background-image: url("images/flash-on.png");
+	}
+.singular .hentry {
+	padding-top: 0;
+	margin-bottom: 0;
+	}
+body.singular .hentry h1.entry-title {
+	padding-bottom: 2px;
+	padding-top: 2px;
+	margin-top: 22px;
+	}
+.one-column nav#nav-above {
+	padding-left: 7.6%;
+	padding-right: 7.6%;
+	border-bottom: 1px solid #E0E0E0;
+	margin-bottom: 1.625em;
+	}
+nav#nav-single {
+	display: none;
+	}
+.one-column nav#nav-below {
+	padding-left: 7.6%;
+	padding-right: 7.6%;
+	border-bottom: 0;
+	margin-bottom: 0;
+	}
+footer.entry-meta a {
+	text-transform: lowercase;
+	}
+footer.entry-meta a:before {
+	content: "#";
+	}
+footer div#site-generator {
+	padding: 0;
+	background: none;
+	}
+footer div#site-generator a {
+	display: block;
+	padding: 40px 0px 30px 90px;
+	text-align: left;
+	background: url("images/wordpress.png") no-repeat 50px 35px;
+	font-weight: normal;
+	color: #bbb;
+	}
+footer div#site-generator a:hover {
+	background-image: url("images/wordpress-on.png");
+	}
+.one-column.singular .entry-meta .edit-link a {
+	display: none;
+	}
+.entry-header .comments-link a {
+	right: 50px;
+	background-color: #fff;
+	}
+.entry-header .comments-link a:hover {
+	background-color: #252525;
+	}
+#respond {
+	border-radius: 0;
+	border: 0;
+	border-top: 1px solid #e0e0e0;
+	background: #fff;
+	padding: 30px 50px 20px 50px;
+	}
+#comments #respond {
+	padding: 30px 0px 20px 0px;
+	}
+h3#reply-title {
+	margin-bottom: 20px;
+	font-size: 20px;
+	}
+#comments {
+	padding: 0 50px;
+	}
+.commentlist > li.comment {
+	background: #fff;
+	}
+.commentlist > li:before {
+	display: none;
+	}
+.commentlist .children > li.bypostauthor {
+	background: #eee;
+	}
+a:focus img[class*="align"], a:hover img[class*="align"], a:active img[class*="align"], a:focus img[class*="wp-image-"], a:hover img[class*="wp-image-"], a:active img[class*="wp-image-"], #content .gallery .gallery-icon a:focus img, #content .gallery .gallery-icon a:hover img, #content .gallery .gallery-icon a:active img {
+	background: #494949;
+	border-color: #494949;
+	}
+
+
+/* Text Styles */
+
+blockquote {
+	font-style: normal;
+	color: #aaa;
+	border-left: 1px dotted #ccc;
+	padding-left: 18px;
+	margin-left: 5px;
+	font-family: inherit;
+	line-height: 1.3em;
+	}
+::selection {
+        background: #fffd3d; /* Safari */
+        color: #000;
+        }
+::-moz-selection {
+        background: #fffd3d; /* Firefox */
+        color: #000;
+}
+
+/* Infinite Scroll */
+	
+#infscr-loading {
+	text-align: center;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	border-bottom: 1px solid #ddd;
+	}
+	
+/* Hide WordPress.com Stats GIF */
+
+img#wpstats{width:0px;height:0px;padding:0px;border:none;overflow:hidden;}
+
+
+/* Make sure Colorbox layers on top of #branding */
+
+#colorbox, #cboxOverlay, #cboxWrapper {
+	z-index: 10000 !important;
+	}
+	
+/* Override Sharedaddy */
+
+div.sharedaddy div.sd-block {
+	border-top: 0px !important;
+	}
+div.sharedaddy div.sd-content {
+	float: none;
+	}
